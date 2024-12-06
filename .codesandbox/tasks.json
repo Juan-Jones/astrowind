@@ -1,0 +1,62 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "command": "npm install",
+      "name": "Install Dependencies"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "dev": {
+      "name": "dev",
+      "command": "npm run dev",
+      "runAtStart": true
+    },
+    "start": {
+      "name": "start",
+      "command": "npm run start"
+    },
+    "build": {
+      "name": "build",
+      "command": "npm run build"
+    },
+    "preview": {
+      "name": "preview",
+      "command": "npm run preview"
+    },
+    "astro": {
+      "name": "astro",
+      "command": "npm run astro"
+    },
+    "check": {
+      "name": "check",
+      "command": "npm run check"
+    },
+    "check:astro": {
+      "name": "check:astro",
+      "command": "npm run check:astro"
+    },
+    "check:eslint": {
+      "name": "check:eslint",
+      "command": "npm run check:eslint"
+    },
+    "check:prettier": {
+      "name": "check:prettier",
+      "command": "npm run check:prettier"
+    },
+    "fix": {
+      "name": "fix",
+      "command": "npm run fix"
+    },
+    "fix:eslint": {
+      "name": "fix:eslint",
+      "command": "npm run fix:eslint"
+    },
+    "fix:prettier": {
+      "name": "fix:prettier",
+      "command": "npm run fix:prettier"
+    }
+  }
+}
